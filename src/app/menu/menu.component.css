@@ -1,0 +1,9 @@
+.btn-group {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+     
+}

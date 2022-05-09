@@ -1,0 +1,40 @@
+#ins, #dis, #link  {
+    background-color: darksalmon;
+    height: 90vh;
+    color: white;
+
+}  
+
+#ins .container-fluid, #dis .container-fluid, #link .container-fluid {
+ min-height: 450px;
+ height: 600px;
+ display: flex;
+ flex-flow: row wrap;
+ 
+ justify-content: center;
+ align-items: center;
+ ;
+}
+
+#ins .container-fluid .col {
+    
+    height: 200px;
+    
+}
+
+.row .col h1 {
+    padding: 80px;
+    padding-left: 100px;
+    -webkit-transform: rotate(-25deg);
+    font-size: 5em;
+    
+}
+
+#insta-tittle {
+    margin-bottom: 80px;
+}
+
+img {
+    width: 90%;
+}
+
