@@ -1,0 +1,66 @@
+/* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+header {
+    text-align: center;
+    background-color: rgb(164, 223, 213);
+}
+
+.intro-secction {
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) ;
+    
+}
+
+.intro-secction div {
+    border: solid aquamarine;
+}
+
+.box1 h1 {
+    border: solid rgb(153, 226, 43) ;
+    box-shadow: rgb(153, 226, 43);
+    position: absolute;
+    
+    
+    top: 180px;
+    left: 70px;
+    -webkit-transform: rotate(-15deg);
+} 
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.header {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    width: 20%;
+    background-color: antiquewhite;
+}
+
+.main {
+    width: 80%;
+    order: 3;
+}
+
+
+
